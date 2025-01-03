@@ -63,6 +63,8 @@ const CartItem = ({ onContinueShopping }) => {
   );
 };
 
+
+export const {removeItem,updateQuantity} = CartItem.actions;
 export default CartItem;
 
 
