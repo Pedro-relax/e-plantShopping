@@ -307,4 +307,5 @@ const handlePlantsClick = (e) => {
     );
 }
 
+export const {addItem} = ProductList.actions
 export default ProductList;
