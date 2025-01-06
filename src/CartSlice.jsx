@@ -28,7 +28,7 @@ if (itemToUpdate) {
     
     },
   },
-});
+);
 
 export const { addItem, removeItem, updateQuantity } = CartSlice.actions;
 
