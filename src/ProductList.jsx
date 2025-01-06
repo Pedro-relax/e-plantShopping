@@ -293,9 +293,7 @@ const handlePlantsClick = (e) => {
         {!showCart? (
         <div className="product-grid">
 
-{plantsArray.map((item) => (
-            <div key={index}>
-                <h1><div>{category.category}</div></h1>
+{plantsArray.map((item) => <div className='mainCategoryDiv'><h1>{item.category}</h1>
                 <div className="product-list">
                     {category.plants.map((plant,plantIndex) => (
                     <div className="product-card">
